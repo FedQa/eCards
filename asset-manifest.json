@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecards/static/css/main.7a407338.css",
-    "main.js": "/ecards/static/js/main.1aae1e90.js",
+    "main.css": "/ecards/static/css/main.70ed1857.css",
+    "main.js": "/ecards/static/js/main.38fb10cc.js",
     "static/media/main_phone.svg": "/ecards/static/media/main_phone.2ce42303b40117c014a382a418077aa9.svg",
     "static/media/adv_1.svg": "/ecards/static/media/adv_1.db178bd08b1549582d937f0d9ef89590.svg",
     "static/media/adv_2.svg": "/ecards/static/media/adv_2.dab8f2b588733306f001532cfd30be92.svg",
@@ -14,18 +14,18 @@
     "static/media/blurGoogle.svg": "/ecards/static/media/blurGoogle.cf03e3b6eed6061d46d42cc8486c1138.svg",
     "static/media/googleButton.svg": "/ecards/static/media/googleButton.589b8258ac9a2c57f24f361600383754.svg",
     "static/media/Звездочки.svg": "/ecards/static/media/Звездочки.481ae854b5f127ba944b0c875b768fe8.svg",
-    "static/media/world.svg": "/ecards/static/media/world.8617a6f7cd1c537d75ab8cc4e78baa42.svg",
-    "static/media/Friends.svg": "/ecards/static/media/Friends.63667bf1579f6d4919eb2614e3ffcd18.svg",
-    "static/media/check.svg": "/ecards/static/media/check.3c40d7818d802de272331d05ee2b2815.svg",
+    "static/media/storage-svgrepo-com.svg": "/ecards/static/media/storage-svgrepo-com.8d361f49f4b36360626391442d33fdad.svg",
+    "static/media/map-svgrepo-com.svg": "/ecards/static/media/map-svgrepo-com.85eb419fae235a4f6ff04713fe5008d5.svg",
+    "static/media/think-creative-thinking-svgrepo-com.svg": "/ecards/static/media/think-creative-thinking-svgrepo-com.de1f7a694798136c6d3d64bf1ddaf7eb.svg",
     "static/media/iphone.svg": "/ecards/static/media/iphone.5af08d6312fe0a5ae03b68c2ffc523ba.svg",
     "index.html": "/ecards/index.html",
     "static/media/star.svg": "/ecards/static/media/star.bd767f6b621d7527af5ea8eb31dfb5dd.svg",
     "static/media/gradient.svg": "/ecards/static/media/gradient.bf40a27263af0f9aa689fc03ce7bf3f9.svg",
-    "main.7a407338.css.map": "/ecards/static/css/main.7a407338.css.map",
-    "main.1aae1e90.js.map": "/ecards/static/js/main.1aae1e90.js.map"
+    "main.70ed1857.css.map": "/ecards/static/css/main.70ed1857.css.map",
+    "main.38fb10cc.js.map": "/ecards/static/js/main.38fb10cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a407338.css",
-    "static/js/main.1aae1e90.js"
+    "static/css/main.70ed1857.css",
+    "static/js/main.38fb10cc.js"
   ]
 }
