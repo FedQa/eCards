@@ -1,0 +1,24 @@
+.rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.rating__points {
+    font-size: 100px;
+    color: white;
+}
+
+.rating__label {
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 770px) {
+    .rating__points {
+        padding-top: 20px;
+        font-size: 70px;
+    }
+}

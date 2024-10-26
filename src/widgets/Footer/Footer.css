@@ -1,0 +1,134 @@
+
+.footer__wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding-left: 15px;
+}
+
+.footer__list {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.footer__title {
+    font-size: 34px;
+}
+
+.footer__logo {
+    font-size: 34px;
+}
+
+.footer__left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    /*padding: 0 200px;*/
+}
+
+.footer__element {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.footer__img {
+    display: flex;
+    align-items: center;
+    min-width: 70px;
+    max-width: 70px;
+
+}
+
+.footer__img img {
+    width: 100%;
+}
+
+.footer__text {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.footer__buttons {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__right {
+    position: relative;
+    height: 100vh;
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__right__wrapper {
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(5px); /* Эффект размытия фона */
+    background: rgba(0, 0, 0, 0.14); /* Полупрозрачный фон */
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.footer__right__img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.footer__right__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rating__points {
+    text-shadow: 0 4px 4px #00000025;
+}
+
+.rating__stars {
+    text-shadow: 0 4px 4px #00000025;
+}
+
+.rating__label {
+    text-shadow: 0 4px 4px #00000025;
+}
+
+@media (max-width: 770px) {
+
+    .footer__title {
+        font-size: 32px;
+    }
+
+    .footer__text {
+        font-size: 24px;
+    }
+
+    .footer__img {
+        min-width: 75px;
+    }
+
+    .rating__points {
+        font-size: 55px;
+    }
+
+
+    .button {
+        width: 200px;
+    }
+
+}

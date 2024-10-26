@@ -1,0 +1,14 @@
+
+.landing_page {
+    /*padding: 0 100px;*/
+    scroll-snap-type: y mandatory;
+    overflow-x: hidden;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+}

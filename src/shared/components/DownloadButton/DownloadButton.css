@@ -1,0 +1,22 @@
+.button {
+    width: 250px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.button:active {
+    transform: scale(1.05);
+}
+
+.button:hover {
+    transform: scale(0.95);
+}
+
+.button:active:hover {
+    transform: scale(1.05);
+}
+
+.button img {
+    width: 100%;
+    height: 100%;
+}
