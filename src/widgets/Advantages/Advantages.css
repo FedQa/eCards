@@ -1,10 +1,9 @@
 
 .advan__wrapper {
     height: calc(100vh - var(--vertical-padding) * 2);
-    padding: var(--vertical-padding) 150px;
+    padding: var(--vertical-padding) 0;
     display: flex;
     align-items: center;
-    gap: 100px;
 }
 
 .adv__left {
@@ -44,7 +43,9 @@
 .adv__title {
     font-weight: 600;
     font-size: 52px;
-    margin-bottom: 50px;
+    margin-bottom: 5%;
+    text-align: center;
+    text-shadow: 2px 2px #e5c980;
 }
 
 .adv__element {

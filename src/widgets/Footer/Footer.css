@@ -16,7 +16,7 @@
 }
 
 .footer__title {
-    font-size: 34px;
+    text-shadow: 2px 2px #efd863;
 }
 
 .footer__logo {
@@ -27,7 +27,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 30%;
     /*padding: 0 200px;*/
 }
 

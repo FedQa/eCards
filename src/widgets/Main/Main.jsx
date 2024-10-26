@@ -19,11 +19,13 @@ function Main() {
 
             <div className="content">
                 <div className="left">
-                    <div className="content__title">
-                        <h2>Учи английский с AI и запоминай новые слова легко.</h2>
-                    </div>
-                    <div className="content__text">
-                        <p>Искусственный интеллект подберет слова на все случаи жизни и поможет их запомнить.</p>
+                    <div className="left__content">
+                        <div className="content__title">
+                            <h2>Учи английский с AI и запоминай новые слова легко</h2>
+                        </div>
+                        <div className="content__text">
+                            <p>Искусственный интеллект подберет слова на все случаи жизни и поможет их запомнить</p>
+                        </div>
                     </div>
                     <div className="wrapper__counter">
                         <Counter text="1" label="слов сгенерировано"/>

@@ -4,13 +4,15 @@ import iphone from '../../shared/assets/iphone.svg'
 
 import Iphone from "../../shared/components/Iphone/Iphone";
 import {advantagesData} from "../../shared/constants/advantages.data";
+import {usePreloadImages} from "./usePreloadImages";
 
 function Advantages() {
     const [selectedIndex, setSelectedIndex] = useState(0);
 
+    const images = advantagesData.map((adv) => adv.img);
+    usePreloadImages(images);
 
     const handleElementClick = (index) => {
-        console.log("select item");
         setSelectedIndex(index);
     }
 
@@ -26,11 +28,16 @@ function Advantages() {
 
                 <div className="adv__right">
                     <div className="adv__title">
-                        Возможности нашего приложения
+                        С eCards ты можешь:
                     </div>
                     <div className="adv__list">
                         {advantagesData.map((value, index) => (
-                            <div className={`adv__element ${index===selectedIndex ? "adv__element-selected" : ""}`} onClick={() => handleElementClick(index)} key={value.id} indexBefore={index+1}>
+                            <div
+                                className={`adv__element ${index===selectedIndex ? "adv__element-selected" : ""}`}
+                                onClick={() => handleElementClick(index)}
+                                key={value.id}
+                                indexBefore={index+1}
+                            >
                                 {value.label}
                             </div>
                         ))}
