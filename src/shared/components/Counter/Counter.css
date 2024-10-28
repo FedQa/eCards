@@ -21,6 +21,7 @@
 
 .counter__label {
     text-align: center;
+    font-size: 20px;
 }
 .ticker-digit > span {
     font-size: 32px !important;

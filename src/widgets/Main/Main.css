@@ -21,16 +21,16 @@
 .left__content {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
 }
 
 .content__title {
-    font-size: 50px;
+    font-size: 56px;
     font-weight: 500;
 }
 
 .content__text {
-    font-size: 26px;
+    font-size: 36px;
     font-weight: 400;
 }
 
@@ -38,6 +38,8 @@
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-top: 50px;
+    gap: 30px;
 }
 
 .right {
@@ -155,7 +157,11 @@
     }
 
     .wrapper__counter {
-        margin-top: 5%;
+        margin: 0;
+    }
+
+    .downloadButtons {
+        margin: 0;
     }
 
     .button {
@@ -173,11 +179,15 @@
 
     .left, .right {
         width: 100%;
+        margin: 0;
     }
 
+    .left__content {
+        gap: 15px;
+    }
 
     .img {
-        padding-top: 15%;
+        padding-top: 5%;
         height: 40vh;
     }
 

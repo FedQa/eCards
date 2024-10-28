@@ -2,7 +2,6 @@ import adv1 from '../../shared/assets/adv_list/adv_1.svg'
 import adv2 from '../../shared/assets/adv_list/adv_2.svg'
 import adv3 from '../../shared/assets/adv_list/generationView.png'
 import adv4 from '../../shared/assets/adv_list/adv_4.png'
-import adv5 from '../../shared/assets/adv_list/adv_5.png'
 
 
 export const advantagesData = [

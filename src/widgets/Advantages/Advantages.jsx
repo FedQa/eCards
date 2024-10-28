@@ -1,19 +1,27 @@
 import './Advantages.css'
 import {useEffect, useState} from "react";
-import iphone from '../../shared/assets/iphone.svg'
-
 import Iphone from "../../shared/components/Iphone/Iphone";
 import {advantagesData} from "../../shared/constants/advantages.data";
 import {usePreloadImages} from "./usePreloadImages";
 
 function Advantages() {
     const [selectedIndex, setSelectedIndex] = useState(0);
+    const [timerKey, setTimerKey] = useState(0);
 
     const images = advantagesData.map((adv) => adv.img);
     usePreloadImages(images);
 
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setSelectedIndex((prevIndex) => (prevIndex + 1) % advantagesData.length);
+        }, 3500);
+
+        return () => clearInterval(interval);
+    }, [timerKey])
+
     const handleElementClick = (index) => {
         setSelectedIndex(index);
+        setTimerKey(prevKey => prevKey + 1);
     }
 
     return (
@@ -22,7 +30,11 @@ function Advantages() {
 
                 <div className="adv__left">
                     <div className="iphone-container">
-                        <Iphone className={"iphone__frame"} href={advantagesData[selectedIndex].img} />
+                        <Iphone
+                            className={"iphone__frame"}
+                            href={advantagesData[selectedIndex].img}
+                            key={advantagesData[selectedIndex].id}
+                        />
                     </div>
                 </div>
 
@@ -33,15 +45,17 @@ function Advantages() {
                     <div className="adv__list">
                         {advantagesData.map((value, index) => (
                             <div
-                                className={`adv__element ${index===selectedIndex ? "adv__element-selected" : ""}`}
+                                className={`adv__element ${index === selectedIndex ? "adv__element-selected" : ""}`}
                                 onClick={() => handleElementClick(index)}
                                 key={value.id}
-                                indexBefore={index+1}
+                                indexBefore={index + 1}
                             >
                                 {value.label}
+                                {index === selectedIndex && <div className="progress-bar"></div>}
                             </div>
                         ))}
                     </div>
+
                 </div>
             </div>
         </section>
