@@ -12,7 +12,7 @@ function Main() {
         <div className="main__wrapper">
             <header className="header">
                 <div className="header__title">
-                    <Logo text="eCards" />
+                    <Logo text="eCards" color={"#FEBE10"}/>
                 </div>
 
             </header>
@@ -24,30 +24,24 @@ function Main() {
                             <h2>Учи английский с AI и запоминай новые слова легко</h2>
                         </div>
                         <div className="content__text">
-                            <p>Искусственный интеллект подберет слова на все случаи жизни и поможет их запомнить</p>
+                            <p id="text__1">Мы создали интеллектуальный тренажер на основе научных работ по запоминанию.</p>
+                            <p id="text__2">Искусственный интеллект подберет слова на все случаи жизни и поможет их запомнить</p>
                         </div>
+                    </div>
+                    <div className="downloadButtons">
+                        <DownloadButton type={"google"} isDefault className="downloadButton"/>
+                        <DownloadButton type={"appStore"} isDefault className="downloadButton"/>
                     </div>
                     <div className="wrapper__counter">
                         <Counter text="1" label="слов сгенерировано"/>
                     </div>
-
-                    <div className="downloadButtons">
-                        <DownloadButton type={"google"} isDefault className="downloadButton" />
-                        <DownloadButton type={"appStore"} isDefault className="downloadButton" />
-                    </div>
-
-
                 </div>
 
                 <div className="right">
-
-
                     <div className="img">
                         <div className="img__wrapper">
                             <img className="main_image" src={main_phone}/>
                             <img className="gradient" src={gradient}/>
-
-
                             <div className="star" id="star__top">
                                 <img src={star} height={65}/>
                             </div>

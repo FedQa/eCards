@@ -3,6 +3,8 @@ import {useEffect, useState} from "react";
 import Iphone from "../../shared/components/Iphone/Iphone";
 import {advantagesData} from "../../shared/constants/advantages.data";
 import {usePreloadImages} from "./usePreloadImages";
+import gradient from "../../shared/assets/gradient.svg";
+import Logo from "../../shared/components/Logo/Logo";
 
 function Advantages() {
     const [selectedIndex, setSelectedIndex] = useState(0);
@@ -30,6 +32,7 @@ function Advantages() {
 
                 <div className="adv__left">
                     <div className="iphone-container">
+                        <img className="gradient" src={gradient}/>
                         <Iphone
                             className={"iphone__frame"}
                             href={advantagesData[selectedIndex].img}
@@ -40,8 +43,9 @@ function Advantages() {
 
                 <div className="adv__right">
                     <div className="adv__title">
-                        С eCards ты можешь:
+                        С&nbsp;<Logo color={"#FEBE10"} text=" eCards " />&nbsp;ты можешь:
                     </div>
+
                     <div className="adv__list">
                         {advantagesData.map((value, index) => (
                             <div

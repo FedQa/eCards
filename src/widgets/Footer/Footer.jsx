@@ -1,12 +1,11 @@
 import map from './../../shared/assets/map-svgrepo-com.svg'
 import think from './../../shared/assets/think-creative-thinking-svgrepo-com.svg'
 import storage from './../../shared/assets/storage-svgrepo-com.svg'
-import footerImg from './../../shared/assets/footerGroup.png'
+import footerImg from './../../shared/assets/footerImg.svg'
 import Logo from "../../shared/components/Logo/Logo";
 import './Footer.css'
 import DownloadButton from "../../shared/components/DownloadButton/DownloadButton";
 import React from "react";
-import Rating from "../../shared/components/Rating/Rating";
 import FooterItem from "./FooterItem";
 
 
@@ -16,7 +15,7 @@ function Footer() {
             <div className="footer__wrapper">
                 <div className="footer__left">
                     <div className="footer__title">
-                        <Logo text="Больше, чем просто приложение" weight={600} size={60}/>
+                        <Logo text={`Больше\nЧем просто приложение`} weight={600} />
                     </div>
 
                     <div className="footer__list">
@@ -28,7 +27,7 @@ function Footer() {
 
                 <div className="footer__right">
                     <div className="footer__right__img">
-                        <img src={footerImg} height={400} alt="footer image card"/>
+                        <img src={footerImg} alt="footer image card"/>
                     </div>
 
                     <div className="footer__buttons">
