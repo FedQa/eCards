@@ -3,7 +3,8 @@ function Logo(props) {
         <div style={{
             fontWeight: props.weight || 800,
             color: props.color,
-            whiteSpace: 'pre-line'
+            whiteSpace: 'pre-line',
+            fontSize: props.fontSize,
         }}>
             {props.text}
         </div>

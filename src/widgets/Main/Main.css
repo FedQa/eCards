@@ -21,7 +21,7 @@
 .left__content {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 35px;
 }
 
 .content__title {
@@ -42,7 +42,7 @@
     flex-direction: column;
     width: 50%;
     margin-top: 50px;
-    gap: 30px;
+    gap: 20px;
 }
 
 .right {

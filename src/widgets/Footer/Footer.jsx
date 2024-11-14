@@ -15,7 +15,8 @@ function Footer() {
             <div className="footer__wrapper">
                 <div className="footer__left">
                     <div className="footer__title">
-                        <Logo text={`Больше\nЧем просто приложение`} weight={600} />
+                        <Logo text={`Больше`} weight={600} fontSize={160}/>
+                        <Logo text={`Чем просто приложение`} weight={600} />
                     </div>
 
                     <div className="footer__list">
