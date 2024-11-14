@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecards/static/css/main.22ae31cc.css",
-    "main.js": "/ecards/static/js/main.b2bf1857.js",
+    "main.css": "/ecards/static/css/main.28a8197f.css",
+    "main.js": "/ecards/static/js/main.ad90f3c6.js",
     "static/media/main_phone.svg": "/ecards/static/media/main_phone.2ce42303b40117c014a382a418077aa9.svg",
     "static/media/adv_1.svg": "/ecards/static/media/adv_1.db178bd08b1549582d937f0d9ef89590.svg",
     "static/media/adv_2.svg": "/ecards/static/media/adv_2.dab8f2b588733306f001532cfd30be92.svg",
@@ -18,11 +18,11 @@
     "index.html": "/ecards/index.html",
     "static/media/star.svg": "/ecards/static/media/star.bd767f6b621d7527af5ea8eb31dfb5dd.svg",
     "static/media/gradient.svg": "/ecards/static/media/gradient.bf40a27263af0f9aa689fc03ce7bf3f9.svg",
-    "main.22ae31cc.css.map": "/ecards/static/css/main.22ae31cc.css.map",
-    "main.b2bf1857.js.map": "/ecards/static/js/main.b2bf1857.js.map"
+    "main.28a8197f.css.map": "/ecards/static/css/main.28a8197f.css.map",
+    "main.ad90f3c6.js.map": "/ecards/static/js/main.ad90f3c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.22ae31cc.css",
-    "static/js/main.b2bf1857.js"
+    "static/css/main.28a8197f.css",
+    "static/js/main.ad90f3c6.js"
   ]
 }
