@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/ecards/static/css/main.28a8197f.css",
-    "main.js": "/ecards/static/js/main.ad90f3c6.js",
-    "static/media/main_phone.svg": "/ecards/static/media/main_phone.2ce42303b40117c014a382a418077aa9.svg",
-    "static/media/adv_1.svg": "/ecards/static/media/adv_1.db178bd08b1549582d937f0d9ef89590.svg",
-    "static/media/adv_2.svg": "/ecards/static/media/adv_2.dab8f2b588733306f001532cfd30be92.svg",
+    "main.css": "/ecards/static/css/main.c200652d.css",
+    "main.js": "/ecards/static/js/main.df7e0375.js",
+    "static/media/main_phone.svg": "/ecards/static/media/main_phone.fa2aa58cf4754b334babc6e7cf1ffd61.svg",
+    "static/media/adv_1.svg": "/ecards/static/media/adv_1.3dbb964cde68aae51ec5f8ad5a4c468e.svg",
+    "static/media/adv_2.svg": "/ecards/static/media/adv_2.07a78d8ba5962de266e43519f6d551c8.svg",
     "static/media/generationView.png": "/ecards/static/media/generationView.62948ba51ada471ded42.png",
     "static/media/adv_4.png": "/ecards/static/media/adv_4.a5b25f1fc40fb94230a4.png",
     "static/media/footerImg.svg": "/ecards/static/media/footerImg.e387982ab62765d3feae8ab8455de92e.svg",
-    "static/media/blurAppStore.svg": "/ecards/static/media/blurAppStore.fb129b9fff711dbe9431da96f1faa63b.svg",
-    "static/media/appStoreButton.svg": "/ecards/static/media/appStoreButton.06fb89445ca980b5bd02b621568764e5.svg",
-    "static/media/blurGoogle.svg": "/ecards/static/media/blurGoogle.cf03e3b6eed6061d46d42cc8486c1138.svg",
-    "static/media/googleButton.svg": "/ecards/static/media/googleButton.589b8258ac9a2c57f24f361600383754.svg",
+    "static/media/blurAppStore.svg": "/ecards/static/media/blurAppStore.bbebe5a41944a32d18b435c5f1c7abec.svg",
+    "static/media/appStoreButton.svg": "/ecards/static/media/appStoreButton.e60e256c7128e203d1b7b1a80d058833.svg",
+    "static/media/blurGoogle.svg": "/ecards/static/media/blurGoogle.0152408718059721281f5b46d470d07f.svg",
+    "static/media/googleButton.svg": "/ecards/static/media/googleButton.8ab887e5f7220b83a41e8dd7cecd28f5.svg",
     "static/media/storage-svgrepo-com.svg": "/ecards/static/media/storage-svgrepo-com.8d361f49f4b36360626391442d33fdad.svg",
-    "static/media/map-svgrepo-com.svg": "/ecards/static/media/map-svgrepo-com.85eb419fae235a4f6ff04713fe5008d5.svg",
+    "static/media/map-svgrepo-com.svg": "/ecards/static/media/map-svgrepo-com.b6322cf363523915da85a65f7123a0b1.svg",
     "static/media/think-creative-thinking-svgrepo-com.svg": "/ecards/static/media/think-creative-thinking-svgrepo-com.de1f7a694798136c6d3d64bf1ddaf7eb.svg",
     "index.html": "/ecards/index.html",
-    "static/media/star.svg": "/ecards/static/media/star.bd767f6b621d7527af5ea8eb31dfb5dd.svg",
-    "static/media/gradient.svg": "/ecards/static/media/gradient.bf40a27263af0f9aa689fc03ce7bf3f9.svg",
-    "main.28a8197f.css.map": "/ecards/static/css/main.28a8197f.css.map",
-    "main.ad90f3c6.js.map": "/ecards/static/js/main.ad90f3c6.js.map"
+    "static/media/star.svg": "/ecards/static/media/star.88f323b5a428cc2fd1cc12f539b863d4.svg",
+    "static/media/gradient.svg": "/ecards/static/media/gradient.9a885824b9b7814d0c83c594ee0d2900.svg",
+    "main.c200652d.css.map": "/ecards/static/css/main.c200652d.css.map",
+    "main.df7e0375.js.map": "/ecards/static/js/main.df7e0375.js.map"
   },
   "entrypoints": [
-    "static/css/main.28a8197f.css",
-    "static/js/main.ad90f3c6.js"
+    "static/css/main.c200652d.css",
+    "static/js/main.df7e0375.js"
   ]
 }
