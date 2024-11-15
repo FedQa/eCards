@@ -31,10 +31,10 @@ function Advantages() {
             <div className="advan__wrapper">
 
                 <div className="adv__left">
-                    <div className="iphone-container">
+                    <div className="iphone-container transition-container">
                         <img className="gradient" src={gradient}/>
                         <Iphone
-                            className={"iphone__frame"}
+                            className="iphone__frame"
                             href={advantagesData[selectedIndex].img}
                             key={advantagesData[selectedIndex].id}
                         />
@@ -43,7 +43,7 @@ function Advantages() {
 
                 <div className="adv__right">
                     <div className="adv__title">
-                        С&nbsp;<Logo color={"#FEBE10"} text=" eCards " />&nbsp;ты можешь:
+                        С&nbsp;<Logo color={"#FEBE10"} text=" eCards "/>&nbsp;ты можешь:
                     </div>
 
                     <div className="adv__list">

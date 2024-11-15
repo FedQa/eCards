@@ -1,4 +1,15 @@
+import { useState, useEffect } from "react";
+
 function Iphone(props) {
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        setIsVisible(false); // Скрываем изображение перед сменой
+        const timeoutId = setTimeout(() => setIsVisible(true), 50); // Плавное включение
+
+        return () => clearTimeout(timeoutId); // Чистка при размонтировании
+    }, [props.href]);
+
     return (
         <div className={props.className}>
             <svg width="439" height="893" viewBox="0 0 439 893" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -8,7 +19,14 @@ function Iphone(props) {
                         <path fillRule="evenodd" clipRule="evenodd" d="M416 806V84C416 45 400.5 19 352 19H87C38.5 19 23 45 23 84V806C23 845 38.5 871 87 871H352C400.5 871 416 845 416 806ZM175.5 30C165.283 30 157 38.2827 157 48.5C157 58.7173 165.283 67 175.5 67H263.5C273.717 67 282 58.7173 282 48.5C282 38.2827 273.717 30 263.5 30H175.5Z" fill="#FFFFFF"/>
                     </mask>
                     <g mask="url(#mask0_296_86)">
-                        <image href={props.href} x="23" y="19" width="393" height="852" />
+                        <image
+                            href={props.href}
+                            x="23"
+                            y="19"
+                            width="393"
+                            height="852"
+                            className={`image-transition ${isVisible ? 'image-transition-active' : ''}`}
+                        />
                     </g>
                 </g>
                 <defs>
