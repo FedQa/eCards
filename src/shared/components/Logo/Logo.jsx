@@ -1,10 +1,9 @@
 function Logo(props) {
     return (
-        <div style={{
+        <div className={props.className} style={{
             fontWeight: props.weight || 800,
             color: props.color,
             whiteSpace: 'pre-line',
-            fontSize: props.fontSize,
         }}>
             {props.text}
         </div>

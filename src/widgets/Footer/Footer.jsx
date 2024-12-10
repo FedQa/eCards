@@ -15,8 +15,8 @@ function Footer() {
             <div className="footer__wrapper">
                 <div className="footer__left">
                     <div className="footer__title">
-                        <Logo text={`Больше`} weight={600} fontSize={160}/>
-                        <Logo text={`Чем просто приложение`} weight={600} />
+                        <Logo text={`Больше`} weight={600} className="footer__logo_first" />
+                        <Logo text={`чем просто приложение`} weight={600} className="footer__logo_second" />
                     </div>
 
                     <div className="footer__list">
@@ -27,13 +27,11 @@ function Footer() {
                 </div>
 
                 <div className="footer__right">
-                    <div className="footer__right__img">
-                        <img src={footerImg} alt="footer image card"/>
-                    </div>
+                    <img src={footerImg} alt="footer image card"/>
 
                     <div className="footer__buttons">
-                        <DownloadButton type="google" isDefault={false}/>
-                        <DownloadButton type="appStore" isDefault={false}/>
+                        <DownloadButton type="google" isDefault={true}/>
+                        <DownloadButton type="appStore" isDefault={true}/>
                     </div>
                 </div>
             </div>
